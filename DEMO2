@@ -1,0 +1,9 @@
+# 1. Initialize the Next.js app with Tailwind and TypeScript
+npx create-next-app@latest ats-app
+cd ats-app
+
+# 2. Install essential packages for Authentication and Database
+npm install @clerk/nextjs @supabase/supabase-js resend
+
+# 3. Start the local development server
+npm run dev
